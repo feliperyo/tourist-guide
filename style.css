@@ -301,6 +301,20 @@ main.back .list .list-item:nth-child(1) img {
         width: 665px;
         justify-content: space-between;
     }
+
+    main.next .list .list-item:nth-last-child(1) img {
+        left: 17%;
+    }
+
+    @keyframes hideImage {
+        to {
+            width: 135px;
+            height: 200px;
+            bottom: 50px;
+            left: 17%;
+            border-radius: 10px;
+        }
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -312,6 +326,20 @@ main.back .list .list-item:nth-child(1) img {
     main .arrows {
         left: 85px;
     }
+
+    main.next .list .list-item:nth-last-child(1) img {
+        left: 10%;
+    }
+
+    @keyframes hideImage {
+        to {
+            width: 135px;
+            height: 200px;
+            bottom: 50px;
+            left: 10%;
+            border-radius: 10px;
+        }
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -322,6 +350,20 @@ main.back .list .list-item:nth-child(1) img {
 
     main .arrows {
         left: 50px;
+    }
+
+    main.next .list .list-item:nth-last-child(1) img {
+        left: 6%;
+    }
+
+    @keyframes hideImage {
+        to {
+            width: 135px;
+            height: 200px;
+            bottom: 50px;
+            left: 6%;
+            border-radius: 10px;
+        }
     }
 }
 
@@ -345,6 +387,22 @@ main.back .list .list-item:nth-child(1) img {
         left: 110px;
         width: 200px;
     }
+
+    main.next .list .list-item:nth-last-child(1) img {
+        width: 80px;
+        height: 120px;
+        left: 4%;
+    }
+
+    @keyframes hideImage {
+        to {
+            width: 80px;
+            height: 120px;
+            bottom: 50px;
+            left: 4%;
+            border-radius: 10px;
+        }
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -366,5 +424,21 @@ main.back .list .list-item:nth-child(1) img {
     main .arrows {
         bottom: 150px;
         left: 90px;
+    }
+
+    main.next .list .list-item:nth-last-child(1) img {
+        width: 70px;
+        height: 110px;
+        left: 5%;
+    }
+
+    @keyframes hideImage {
+        to {
+            width: 70px;
+            height: 110px;
+            bottom: 20px;
+            left: 5%;
+            border-radius: 10px;
+        }
     }
 }
