@@ -268,3 +268,103 @@ main.back .list .list-item:nth-child(1) img {
         border-radius: 10px;
     }
 }
+
+@media screen and (max-width: 1030px) {
+    header {
+        display: none;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+
+    main .list .list-item .content {
+        top: 10%;
+        right: 0%;
+        padding: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    main .list .list-item .buttons {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    main .thumb {
+        left: 17%;
+    }
+
+    main .arrows {
+        bottom: 300px;
+        left: 180px;
+        width: 665px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    main .thumb {
+        left: 10%;
+    }
+
+    main .arrows {
+        left: 85px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    main .thumb {
+        left: 6%;
+    }
+
+    main .arrows {
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    main .list .list-item .buttons {
+        gap: 50px;
+    }
+
+    main .thumb {
+        left: 4%;
+    }
+
+    main .thumb .thumb-item {
+        width: 80px;
+        height: 120px;
+    }
+
+    main .arrows {
+        bottom: 200px;
+        left: 110px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    main .list .list-item .content {
+        top: 0%;
+    }
+
+    main .thumb {
+        left: 5%;
+        bottom: 20px;
+    }
+
+    main .thumb .thumb-item {
+        width: 70px;
+        height: 110px;
+    }
+
+    main .arrows {
+        bottom: 150px;
+        left: 90px;
+    }
+}
